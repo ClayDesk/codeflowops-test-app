@@ -1,0 +1,129 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.nav-brand a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+  background-color: rgba(255,255,255,0.2);
+}
+
+.main-content {
+  flex: 1;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.page {
+  text-align: left;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.page h1 {
+  color: #333;
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+}
+
+.page h2 {
+  color: #555;
+  margin: 2rem 0 1rem 0;
+  font-size: 1.8rem;
+}
+
+.features, .tech-stack, .status {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin: 1.5rem 0;
+  border-left: 4px solid #667eea;
+}
+
+.features ul, .tech-stack ul {
+  list-style: none;
+  padding: 0;
+}
+
+.features li, .tech-stack li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.features li:before, .tech-stack li:before {
+  content: "✓";
+  color: #28a745;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
+.status p {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.footer {
+  background-color: #343a40;
+  color: white;
+  padding: 1rem;
+  margin-top: auto;
+}
+
+.footer p {
+  margin: 0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .main-content {
+    padding: 1rem;
+  }
+  
+  .page h1 {
+    font-size: 2rem;
+  }
+  
+  .nav-links {
+    gap: 1rem;
+  }
+}
