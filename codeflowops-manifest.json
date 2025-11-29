@@ -1,0 +1,361 @@
+{
+  "version": "1.0",
+  "repository": {
+    "owner": "ClayDesk",
+    "name": "codeflowops-test-app",
+    "url": "https://github.com/ClayDesk/codeflowops-test-app",
+    "isPrivate": false
+  },
+  "documentation": {
+    "generatedAt": "2025-11-29T06:44:26.612Z",
+    "commitHash": "69b9e8a7fa2904535d3edf9c8189508b5b64dcb1",
+    "branch": "main",
+    "totalWordCount": 8473,
+    "sectionsCount": 17,
+    "techStack": [
+      "React 18",
+      "React Router",
+      "Axios",
+      "FastAPI",
+      "SQLAlchemy",
+      "JWT",
+      "Docker",
+      "Python 3.11",
+      "Uvicorn",
+      "PostgreSQL",
+      "Node.js",
+      "Express",
+      "Next.js"
+    ]
+  },
+  "sections": [
+    {
+      "sectionNumber": 1,
+      "title": "Executive Summary",
+      "wordCount": 531,
+      "keyTopics": [
+        "project overview",
+        "business context",
+        "tech stack"
+      ],
+      "codeLinks": []
+    },
+    {
+      "sectionNumber": 2,
+      "title": "System Architecture",
+      "wordCount": 544,
+      "keyTopics": [
+        "React frontend architecture",
+        "FastAPI backend architecture",
+        "deployment strategy"
+      ],
+      "codeLinks": []
+    },
+    {
+      "sectionNumber": 3,
+      "title": "Data Architecture",
+      "wordCount": 488,
+      "keyTopics": [
+        "database models",
+        "SQLAlchemy integration",
+        "data validation"
+      ],
+      "codeLinks": []
+    },
+    {
+      "sectionNumber": 4,
+      "title": "Core Features & Workflows",
+      "wordCount": 541,
+      "keyTopics": [
+        "SPA routing",
+        "API integration",
+        "authentication workflows"
+      ],
+      "codeLinks": []
+    },
+    {
+      "sectionNumber": 5,
+      "title": "API Reference",
+      "wordCount": 484,
+      "keyTopics": [
+        "REST API endpoints",
+        "authentication",
+        "request/response formats"
+      ],
+      "codeLinks": []
+    },
+    {
+      "sectionNumber": 6,
+      "title": "Security Architecture",
+      "wordCount": 504,
+      "keyTopics": [
+        "JWT authentication",
+        "CORS configuration",
+        "data protection"
+      ],
+      "codeLinks": []
+    },
+    {
+      "sectionNumber": 7,
+      "title": "DevOps & Deployment",
+      "wordCount": 429,
+      "keyTopics": [
+        "CI/CD process",
+        "Docker deployment",
+        "environment configuration"
+      ],
+      "codeLinks": [
+        {
+          "id": "f6585160a186",
+          "sectionNumber": 7,
+          "sectionTitle": "DevOps & Deployment",
+          "filePath": "fastapi-backend/Dockerfile",
+          "startLine": 1,
+          "endLine": 5,
+          "commitHash": "69b9e8a7fa2904535d3edf9c8189508b5b64dcb1",
+          "contentHash": "abeb4e4fec756a328b930849ddc573cf0f586e119b9609f9bae92acf5d86b6d5",
+          "codeType": "other"
+        },
+        {
+          "id": "c1cb314d2c4d",
+          "sectionNumber": 7,
+          "sectionTitle": "DevOps & Deployment",
+          "filePath": "fastapi-backend/Dockerfile",
+          "startLine": 24,
+          "endLine": 27,
+          "commitHash": "69b9e8a7fa2904535d3edf9c8189508b5b64dcb1",
+          "contentHash": "6cd44a5dc056ad1c43b8f142ece0231dd1332e10ea885aafe7517e5f09367997",
+          "codeType": "other"
+        },
+        {
+          "id": "dfcd4cd72f22",
+          "sectionNumber": 7,
+          "sectionTitle": "DevOps & Deployment",
+          "filePath": "fastapi-backend/.env.example",
+          "startLine": 1,
+          "endLine": 4,
+          "commitHash": "69b9e8a7fa2904535d3edf9c8189508b5b64dcb1",
+          "contentHash": "5c61d981c983df223cb91011dcd393849f644c53effce119dc0db84cb2b1ad50",
+          "codeType": "other"
+        }
+      ]
+    },
+    {
+      "sectionNumber": 8,
+      "title": "Reliability & Performance",
+      "wordCount": 456,
+      "keyTopics": [
+        "error handling",
+        "monitoring",
+        "scalability"
+      ],
+      "codeLinks": [
+        {
+          "id": "d6c1b5c1c8eb",
+          "sectionNumber": 8,
+          "sectionTitle": "Reliability & Performance",
+          "filePath": "fastapi-backend/main.py",
+          "startLine": 15,
+          "endLine": 24,
+          "commitHash": "69b9e8a7fa2904535d3edf9c8189508b5b64dcb1",
+          "contentHash": "019953a3d6d48a9d38590ca105e935d048279a18f718c10c16083d23aaaf1a5a",
+          "codeType": "other"
+        },
+        {
+          "id": "d81b27f449eb",
+          "sectionNumber": 8,
+          "sectionTitle": "Reliability & Performance",
+          "filePath": "fastapi-backend/Dockerfile",
+          "startLine": 57,
+          "endLine": 59,
+          "commitHash": "69b9e8a7fa2904535d3edf9c8189508b5b64dcb1",
+          "contentHash": "0782345befb92075cd70264b1b8def30673e3ed47f72ee67bad2fb3504b1d3ac",
+          "codeType": "other"
+        }
+      ]
+    },
+    {
+      "sectionNumber": 9,
+      "title": "Threat Modeling & Security Analysis",
+      "wordCount": 525,
+      "keyTopics": [
+        "STRIDE analysis",
+        "attack surface",
+        "risk assessment"
+      ],
+      "codeLinks": []
+    },
+    {
+      "sectionNumber": 10,
+      "title": "Compliance & Regulatory",
+      "wordCount": 553,
+      "keyTopics": [
+        "GDPR compliance",
+        "audit requirements",
+        "data privacy"
+      ],
+      "codeLinks": []
+    },
+    {
+      "sectionNumber": 11,
+      "title": "Non-Functional Requirements (NFR) Matrix",
+      "wordCount": 574,
+      "keyTopics": [
+        "availability targets",
+        "scalability",
+        "performance benchmarks"
+      ],
+      "codeLinks": []
+    },
+    {
+      "sectionNumber": 12,
+      "title": "SLO/SLA/SLI Definitions",
+      "wordCount": 493,
+      "keyTopics": [
+        "service level objectives",
+        "agreements",
+        "error budgets"
+      ],
+      "codeLinks": []
+    },
+    {
+      "sectionNumber": 13,
+      "title": "Observability & Monitoring",
+      "wordCount": 492,
+      "keyTopics": [
+        "logging",
+        "metrics",
+        "alerting"
+      ],
+      "codeLinks": []
+    },
+    {
+      "sectionNumber": 14,
+      "title": "Infrastructure as Code (IaC)",
+      "wordCount": 440,
+      "keyTopics": [
+        "Terraform usage",
+        "Kubernetes deployment",
+        "Docker configuration"
+      ],
+      "codeLinks": [
+        {
+          "id": "f0dd45e43568",
+          "sectionNumber": 14,
+          "sectionTitle": "Infrastructure as Code (IaC)",
+          "filePath": "fastapi-backend/Dockerfile",
+          "startLine": 1,
+          "endLine": 20,
+          "commitHash": "69b9e8a7fa2904535d3edf9c8189508b5b64dcb1",
+          "contentHash": "9eba2cc5522af4c57668c154c9b941bc38da7d095952bb7b9a2212ed5979e923",
+          "codeType": "other"
+        }
+      ]
+    },
+    {
+      "sectionNumber": 15,
+      "title": "Disaster Recovery & Business Continuity",
+      "wordCount": 499,
+      "keyTopics": [
+        "RTO/RPO",
+        "backup strategies",
+        "failover mechanisms"
+      ],
+      "codeLinks": []
+    },
+    {
+      "sectionNumber": 16,
+      "title": "Versioning & Release Management",
+      "wordCount": 494,
+      "keyTopics": [
+        "semantic versioning",
+        "branching strategy",
+        "release process"
+      ],
+      "codeLinks": []
+    },
+    {
+      "sectionNumber": 17,
+      "title": "Future Roadmap",
+      "wordCount": 426,
+      "keyTopics": [
+        "planned features",
+        "improvements",
+        "long-term vision"
+      ],
+      "codeLinks": []
+    }
+  ],
+  "allCodeLinks": [
+    {
+      "id": "f6585160a186",
+      "sectionNumber": 7,
+      "sectionTitle": "DevOps & Deployment",
+      "filePath": "fastapi-backend/Dockerfile",
+      "startLine": 1,
+      "endLine": 5,
+      "commitHash": "69b9e8a7fa2904535d3edf9c8189508b5b64dcb1",
+      "contentHash": "abeb4e4fec756a328b930849ddc573cf0f586e119b9609f9bae92acf5d86b6d5",
+      "codeType": "other"
+    },
+    {
+      "id": "c1cb314d2c4d",
+      "sectionNumber": 7,
+      "sectionTitle": "DevOps & Deployment",
+      "filePath": "fastapi-backend/Dockerfile",
+      "startLine": 24,
+      "endLine": 27,
+      "commitHash": "69b9e8a7fa2904535d3edf9c8189508b5b64dcb1",
+      "contentHash": "6cd44a5dc056ad1c43b8f142ece0231dd1332e10ea885aafe7517e5f09367997",
+      "codeType": "other"
+    },
+    {
+      "id": "dfcd4cd72f22",
+      "sectionNumber": 7,
+      "sectionTitle": "DevOps & Deployment",
+      "filePath": "fastapi-backend/.env.example",
+      "startLine": 1,
+      "endLine": 4,
+      "commitHash": "69b9e8a7fa2904535d3edf9c8189508b5b64dcb1",
+      "contentHash": "5c61d981c983df223cb91011dcd393849f644c53effce119dc0db84cb2b1ad50",
+      "codeType": "other"
+    },
+    {
+      "id": "d6c1b5c1c8eb",
+      "sectionNumber": 8,
+      "sectionTitle": "Reliability & Performance",
+      "filePath": "fastapi-backend/main.py",
+      "startLine": 15,
+      "endLine": 24,
+      "commitHash": "69b9e8a7fa2904535d3edf9c8189508b5b64dcb1",
+      "contentHash": "019953a3d6d48a9d38590ca105e935d048279a18f718c10c16083d23aaaf1a5a",
+      "codeType": "other"
+    },
+    {
+      "id": "d81b27f449eb",
+      "sectionNumber": 8,
+      "sectionTitle": "Reliability & Performance",
+      "filePath": "fastapi-backend/Dockerfile",
+      "startLine": 57,
+      "endLine": 59,
+      "commitHash": "69b9e8a7fa2904535d3edf9c8189508b5b64dcb1",
+      "contentHash": "0782345befb92075cd70264b1b8def30673e3ed47f72ee67bad2fb3504b1d3ac",
+      "codeType": "other"
+    },
+    {
+      "id": "f0dd45e43568",
+      "sectionNumber": 14,
+      "sectionTitle": "Infrastructure as Code (IaC)",
+      "filePath": "fastapi-backend/Dockerfile",
+      "startLine": 1,
+      "endLine": 20,
+      "commitHash": "69b9e8a7fa2904535d3edf9c8189508b5b64dcb1",
+      "contentHash": "9eba2cc5522af4c57668c154c9b941bc38da7d095952bb7b9a2212ed5979e923",
+      "codeType": "other"
+    }
+  ],
+  "checksum": {
+    "manifestHash": "4c0bd47c186c310b8ae4c717aea52bf60bd266799aff21b7b20a080eefaadf1a",
+    "combinedCodeHash": "ecd51ec30d804169ebec3900c07afca842afc655afe8f3c7774f970fb318e4fe"
+  }
+}
